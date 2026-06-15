@@ -1,12 +1,16 @@
 
+import java.util.Scanner;
+
 public class lecture_1 {
 
     public static void main(String[] args) {
-        int x = 10;
-        if (x > 5) {
-            System.out.println("x is greater than 5");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int x = scanner.nextInt();
+        if (x >= 18) {
+            System.out.println("You are an adult.");
         } else {
-            System.out.println("x is not greater than 5");
+            System.out.println("You are a minor.");
         }
     }
 }
