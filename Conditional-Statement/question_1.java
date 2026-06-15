@@ -13,7 +13,7 @@ public class question_1 {
         } else if (a > b) {
             System.out.println("First number is greater than second number.");
         } else {
-            System.out.println("Second number is greater than first number.");
+
         }
     }
 
