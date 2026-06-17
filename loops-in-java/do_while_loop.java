@@ -16,6 +16,6 @@ public class do_while_loop {
             System.out.print("Altaf Shaikh\n"); // yeh print hoga kyuki do-while loop me pehle body execute hoti hai fir
                                                 // condition check hoti hai
             i++;
-        } while (i < 11); // do while loop me terminal hoti hai isliye lagana padega
+        } while (i < 11)// do while loop me terminal hoti hai isliye lagana padega
     }
 }
