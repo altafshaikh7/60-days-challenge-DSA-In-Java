@@ -8,5 +8,16 @@ public class Variables {
         y = 10; // declaration
         System.out.println(y);
 
+        int a = 5;
+        System.out.println(a);
+
+        a = a + 4;
+        System.out.println(a);
+
+        a = a - 2;
+        System.out.println(a);
+
+        a = a * 10;
+        System.out.println(a);
     }
 }
